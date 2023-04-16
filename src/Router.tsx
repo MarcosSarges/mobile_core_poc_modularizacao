@@ -2,8 +2,8 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import Tela1 from './Tela1';
 import Tela2 from './Tela2';
-import Module1 from './modules/module1/ExportedModule';
-import Module2 from './modules/module2/ExportedModule';
+import Module1 from './../../mobile_module_one';
+import Module2 from './../../mobile_module_two';
 
 const Stack = createStackNavigator();
 
